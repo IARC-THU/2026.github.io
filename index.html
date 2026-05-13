@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="THU Aerial Robotics Team for the International Aerial Robotics Competition Mission 10."
+    />
+    <title>THU Aerial Robotics Team | IARC Mission 10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Sticky navigation -->
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#home">THU Aerial Robotics</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-bar"></span>
+          <span class="nav-bar"></span>
+          <span class="nav-bar"></span>
+        </button>
+
+        <nav class="nav" aria-label="Primary">
+          <ul id="primary-navigation" class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#mission">Mission 10</a></li>
+            <li><a href="#architecture">System Architecture</a></li>
+            <li><a href="#progress">Progress</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a class="btn small" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HOME -->
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">University Team</p>
+            <h1>THU Aerial Robotics Team</h1>
+            <p class="subtitle">International Aerial Robotics Competition Mission 10</p>
+            <p class="mission-statement">
+              We build autonomous multi-UAV systems that combine perception, planning, and
+              coordination for safe, human-aware navigation in complex environments.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#mission">Learn More</a>
+              <a class="btn ghost" href="#progress">View Progress</a>
+            </div>
+            <div class="focus-block">
+              <p class="focus-title">Key technical focus</p>
+              <ul class="focus-list">
+                <li>Autonomous swarm UAVs</li>
+                <li>ROS2</li>
+                <li>PX4</li>
+                <li>Computer vision</li>
+                <li>Multi-agent coordination</li>
+                <li>Minefield mapping</li>
+                <li>Path planning</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <img
+              src="assets/images/hero-illustration.svg"
+              alt=""
+              width="520"
+              height="420"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="container hero-secondary">
+          <div class="overview-card reveal">
+            <h3>Team introduction</h3>
+            <p>
+              A multidisciplinary group of aerospace, robotics, and AI researchers focused on
+              building mission-ready autonomy for aerial systems.
+            </p>
+          </div>
+          <div class="overview-card reveal">
+            <h3>Competition overview</h3>
+            <p>
+              IARC Mission 10 challenges teams to coordinate UAV swarms for safe, efficient
+              operations in a dynamic, minefield-like environment with human interaction.
+            </p>
+          </div>
+        </div>
+
+        <div class="container stats-grid">
+          <div class="stat-card reveal">
+            <p class="stat-number" data-target="12" data-suffix="+">0</p>
+            <p class="stat-label">Drones in fleet</p>
+          </div>
+          <div class="stat-card reveal">
+            <p class="stat-number" data-target="450" data-suffix="+">0</p>
+            <p class="stat-label">Flight hours</p>
+          </div>
+          <div class="stat-card reveal">
+            <p class="stat-number" data-target="180000" data-suffix="+">0</p>
+            <p class="stat-label">Lines of code</p>
+          </div>
+          <div class="stat-card reveal">
+            <p class="stat-number" data-target="26" data-suffix="">0</p>
+            <p class="stat-label">Team members</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section id="team" class="section">
+        <div class="container section-header reveal">
+          <p class="eyebrow">Team</p>
+          <h2>People behind the mission</h2>
+          <p>
+            The team blends autonomy, controls, and systems engineering to create reliable
+            airborne robots.
+          </p>
+        </div>
+
+        <div class="container faculty-card reveal">
+          <div>
+            <h3>Faculty advisor</h3>
+            <p class="muted">Prof. Alexandra Chen</p>
+            <p>
+              Research focus in multi-robot systems, aerial autonomy, and resilient flight
+              control.
+            </p>
+          </div>
+          <a class="btn ghost" href="#contact">Connect</a>
+        </div>
+
+        <div class="container team-grid">
+          <article class="team-card reveal">
+            <img
+              src="assets/images/avatar-placeholder.svg"
+              alt="Portrait placeholder"
+              width="140"
+              height="140"
+              loading="lazy"
+            />
+            <h3>Wei Zhang</h3>
+            <p class="role">Team Lead</p>
+            <p class="muted">Aerospace Engineering</p>
+            <p>Research: autonomy, mission planning</p>
+            <a href="https://github.com/placeholder" class="link">GitHub</a>
+          </article>
+          <article class="team-card reveal">
+            <img
+              src="assets/images/avatar-placeholder.svg"
+              alt="Portrait placeholder"
+              width="140"
+              height="140"
+              loading="lazy"
+            />
+            <h3>Anna Li</h3>
+            <p class="role">Perception Lead</p>
+            <p class="muted">Computer Science</p>
+            <p>Research: vision, SLAM, mapping</p>
+            <a href="https://github.com/placeholder" class="link">GitHub</a>
+          </article>
+          <article class="team-card reveal">
+            <img
+              src="assets/images/avatar-placeholder.svg"
+              alt="Portrait placeholder"
+              width="140"
+              height="140"
+              loading="lazy"
+            />
+            <h3>David Chen</h3>
+            <p class="role">Controls Lead</p>
+            <p class="muted">Mechanical Engineering</p>
+            <p>Research: flight control, PX4 tuning</p>
+            <a href="https://github.com/placeholder" class="link">GitHub</a>
+          </article>
+          <article class="team-card reveal">
+            <img
+              src="assets/images/avatar-placeholder.svg"
+              alt="Portrait placeholder"
+              width="140"
+              height="140"
+              loading="lazy"
+            />
+            <h3>Sophia Wang</h3>
+            <p class="role">Systems Engineer</p>
+            <p class="muted">Automation</p>
+            <p>Research: ROS2 integration, tooling</p>
+            <a href="https://github.com/placeholder" class="link">GitHub</a>
+          </article>
+          <article class="team-card reveal">
+            <img
+              src="assets/images/avatar-placeholder.svg"
+              alt="Portrait placeholder"
+              width="140"
+              height="140"
+              loading="lazy"
+            />
+            <h3>Leo Sun</h3>
+            <p class="role">Hardware Lead</p>
+            <p class="muted">Electrical Engineering</p>
+            <p>Research: avionics, power systems</p>
+            <a href="https://github.com/placeholder" class="link">GitHub</a>
+          </article>
+          <article class="team-card reveal">
+            <img
+              src="assets/images/avatar-placeholder.svg"
+              alt="Portrait placeholder"
+              width="140"
+              height="140"
+              loading="lazy"
+            />
+            <h3>Maya Liu</h3>
+            <p class="role">AI Engineer</p>
+            <p class="muted">Artificial Intelligence</p>
+            <p>Research: swarm coordination, ML</p>
+            <a href="https://github.com/placeholder" class="link">GitHub</a>
+          </article>
+        </div>
+
+        <div class="container org-structure reveal">
+          <img
+            src="assets/images/org-structure.svg"
+            alt="Team organizational structure diagram placeholder"
+            width="960"
+            height="420"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <!-- MISSION 10 -->
+      <section id="mission" class="section alt">
+        <div class="container section-header reveal">
+          <p class="eyebrow">Mission 10</p>
+          <h2>Autonomy for safe minefield traversal support</h2>
+          <p>
+            Mission 10 requires multi-UAV swarms to coordinate with humans, map hazardous
+            regions, and plan safe traversal paths in real time.
+          </p>
+        </div>
+
+        <div class="container mission-grid">
+          <div class="mission-text reveal">
+            <h3>What we deliver</h3>
+            <ul class="checklist">
+              <li>IARC Mission 10 objective alignment</li>
+              <li>Autonomous minefield traversal support</li>
+              <li>Swarm coordination and consensus</li>
+              <li>Human-drone interaction safety</li>
+              <li>Obstacle avoidance in dynamic scenes</li>
+              <li>Mapping and safe path planning</li>
+            </ul>
+          </div>
+          <div class="mission-timeline reveal" aria-hidden="true">
+            <img
+              src="assets/images/mission-timeline.svg"
+              alt=""
+              width="520"
+              height="320"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="container goals-grid">
+          <article class="card reveal">
+            <h3>Persistent mapping</h3>
+            <p>Continuous mapping with shared SLAM layers for every vehicle in the swarm.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Coordination layer</h3>
+            <p>Decentralized task allocation with human-aware constraints.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Safety envelope</h3>
+            <p>Multi-sensor obstacle avoidance and dynamic replanning in cluttered spaces.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Mission analytics</h3>
+            <p>Post-flight metrics, replay, and verification for rapid iteration.</p>
+          </article>
+        </div>
+
+        <div class="container video-section reveal">
+          <div class="video-placeholder" role="img" aria-label="Demo video placeholder">
+            <img
+              src="assets/images/video-placeholder.svg"
+              alt="Demo video placeholder"
+              width="960"
+              height="420"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SYSTEM ARCHITECTURE -->
+      <section id="architecture" class="section">
+        <div class="container section-header reveal">
+          <p class="eyebrow">System Architecture</p>
+          <h2>Modular stack for scalable autonomy</h2>
+          <p>
+            A layered autonomy pipeline connects hardware, middleware, perception, and
+            multi-agent decision making.
+          </p>
+        </div>
+
+        <div class="container architecture-grid">
+          <div class="architecture-visual reveal" aria-hidden="true">
+            <img
+              src="assets/images/architecture-diagram.svg"
+              alt=""
+              width="560"
+              height="380"
+              loading="lazy"
+            />
+          </div>
+          <div class="architecture-text reveal">
+            <h3>Core modules</h3>
+            <ul class="checklist">
+              <li>UAV hardware and avionics</li>
+              <li>Companion computer</li>
+              <li>Sensor suite (LiDAR, RGB, IMU)</li>
+              <li>PX4 flight stack</li>
+              <li>ROS2 middleware</li>
+              <li>SLAM and localization</li>
+              <li>Multi-agent communication</li>
+              <li>Path planning pipeline</li>
+              <li>Computer vision pipeline</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container dataflow-grid">
+          <article class="card reveal">
+            <h3>Perception data flow</h3>
+            <p>Sensor fusion, SLAM, and semantic mapping feed the shared environment model.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Planning data flow</h3>
+            <p>Multi-agent coordination, path optimization, and safety checks drive actions.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Control data flow</h3>
+            <p>PX4 and onboard controllers close the loop with high-frequency actuation.</p>
+          </article>
+        </div>
+
+        <div class="container badge-row reveal">
+          <span class="badge">PX4</span>
+          <span class="badge">ROS2</span>
+          <span class="badge">SLAM</span>
+          <span class="badge">MAVLink</span>
+          <span class="badge">OpenCV</span>
+          <span class="badge">TensorRT</span>
+          <span class="badge">GCS</span>
+        </div>
+      </section>
+
+      <!-- PROGRESS / BLOG -->
+      <section id="progress" class="section alt">
+        <div class="container section-header reveal">
+          <p class="eyebrow">Progress</p>
+          <h2>Flight logs and research updates</h2>
+          <p>Follow our iterative testing pipeline from simulation to swarm deployments.</p>
+        </div>
+
+        <div class="container blog-grid">
+          <article class="blog-card reveal">
+            <div class="blog-meta">
+              <p class="tag">Flight testing</p>
+              <p class="date">Mar 18, 2026</p>
+            </div>
+            <h3>Precision landing trials in indoor arena</h3>
+            <p>
+              Evaluated latency-aware control loops and camera-based landing for GPS-denied
+              zones.
+            </p>
+            <a class="btn ghost small" href="#progress">Read more</a>
+          </article>
+          <article class="blog-card reveal">
+            <div class="blog-meta">
+              <p class="tag">Simulation</p>
+              <p class="date">Feb 27, 2026</p>
+            </div>
+            <h3>Mission 10 scenario simulation in Gazebo</h3>
+            <p>Integrated synthetic minefield markers with multi-agent routing baselines.</p>
+            <a class="btn ghost small" href="#progress">Read more</a>
+          </article>
+          <article class="blog-card reveal">
+            <div class="blog-meta">
+              <p class="tag">Swarm experiments</p>
+              <p class="date">Jan 12, 2026</p>
+            </div>
+            <h3>Consensus and task allocation field tests</h3>
+            <p>Validated decentralized assignment with human-aware safety constraints.</p>
+            <a class="btn ghost small" href="#progress">Read more</a>
+          </article>
+          <article class="blog-card reveal">
+            <div class="blog-meta">
+              <p class="tag">Hardware integration</p>
+              <p class="date">Dec 21, 2025</p>
+            </div>
+            <h3>Custom avionics stack bring-up</h3>
+            <p>Bench-tested power budgets and thermal envelopes for extended flights.</p>
+            <a class="btn ghost small" href="#progress">Read more</a>
+          </article>
+          <article class="blog-card reveal">
+            <div class="blog-meta">
+              <p class="tag">Vision model training</p>
+              <p class="date">Nov 30, 2025</p>
+            </div>
+            <h3>Minefield marker detection pipeline</h3>
+            <p>Trained a lightweight detector for onboard inference and robust tracking.</p>
+            <a class="btn ghost small" href="#progress">Read more</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- SPONSORS -->
+      <section id="sponsors" class="section">
+        <div class="container section-header reveal">
+          <p class="eyebrow">Sponsors</p>
+          <h2>Support the mission</h2>
+          <p>We partner with industry leaders to accelerate research and flight testing.</p>
+        </div>
+
+        <div class="container sponsor-logos">
+          <img src="assets/images/sponsor-placeholder.svg" alt="Sponsor logo" />
+          <img src="assets/images/sponsor-placeholder.svg" alt="Sponsor logo" />
+          <img src="assets/images/sponsor-placeholder.svg" alt="Sponsor logo" />
+          <img src="assets/images/sponsor-placeholder.svg" alt="Sponsor logo" />
+        </div>
+
+        <div class="container sponsor-tiers">
+          <article class="card reveal">
+            <h3>Platinum</h3>
+            <p>Strategic partners supporting flight test infrastructure and hardware.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Gold</h3>
+            <p>Research collaborators contributing to sensing, autonomy, and AI.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Silver</h3>
+            <p>Community supporters enabling student development and outreach.</p>
+          </article>
+        </div>
+
+        <div class="container sponsor-cta reveal">
+          <a class="btn primary" href="#contact">Become a Sponsor</a>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section alt">
+        <div class="container section-header reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Connect with our team</h2>
+          <p>Reach out for collaboration, sponsorship, or technical exchange.</p>
+        </div>
+
+        <div class="container contact-grid">
+          <div class="contact-card reveal">
+            <h3>Email</h3>
+            <p><a href="mailto:team@university.edu">team@university.edu</a></p>
+          </div>
+          <div class="contact-card reveal">
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/organization">github.com/organization</a></p>
+          </div>
+          <div class="contact-card reveal">
+            <h3>University</h3>
+            <p>Department of Aerospace Engineering</p>
+          </div>
+          <div class="contact-card reveal">
+            <h3>Social</h3>
+            <p>
+              <a href="https://www.linkedin.com">LinkedIn</a> | <a href="https://x.com">X</a> |
+              <a href="https://www.youtube.com">YouTube</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>Copyright 2026 THU Aerial Robotics Team. All rights reserved.</p>
+        <a href="#home" class="link">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>

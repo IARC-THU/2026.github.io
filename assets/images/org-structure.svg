@@ -1,0 +1,23 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="420" rx="24" fill="#0C111B" />
+  <rect x="60" y="40" width="840" height="340" rx="20" fill="#111827" stroke="#243449" stroke-width="2" />
+  <rect x="380" y="70" width="200" height="56" rx="16" fill="#1A2435" stroke="#2D405A" stroke-width="2" />
+  <text x="480" y="104" fill="#B9C6DD" font-size="16" font-family="Space Grotesk" text-anchor="middle">Team Lead</text>
+  <rect x="120" y="170" width="200" height="56" rx="16" fill="#141F31" stroke="#2D405A" stroke-width="2" />
+  <rect x="380" y="170" width="200" height="56" rx="16" fill="#141F31" stroke="#2D405A" stroke-width="2" />
+  <rect x="640" y="170" width="200" height="56" rx="16" fill="#141F31" stroke="#2D405A" stroke-width="2" />
+  <text x="220" y="204" fill="#B9C6DD" font-size="14" font-family="Space Grotesk" text-anchor="middle">Perception</text>
+  <text x="480" y="204" fill="#B9C6DD" font-size="14" font-family="Space Grotesk" text-anchor="middle">Controls</text>
+  <text x="740" y="204" fill="#B9C6DD" font-size="14" font-family="Space Grotesk" text-anchor="middle">Systems</text>
+  <rect x="120" y="270" width="200" height="56" rx="16" fill="#121A2A" stroke="#2D405A" stroke-width="2" />
+  <rect x="380" y="270" width="200" height="56" rx="16" fill="#121A2A" stroke="#2D405A" stroke-width="2" />
+  <rect x="640" y="270" width="200" height="56" rx="16" fill="#121A2A" stroke="#2D405A" stroke-width="2" />
+  <text x="220" y="304" fill="#8EA0BC" font-size="12" font-family="Space Grotesk" text-anchor="middle">Hardware</text>
+  <text x="480" y="304" fill="#8EA0BC" font-size="12" font-family="Space Grotesk" text-anchor="middle">Autonomy</text>
+  <text x="740" y="304" fill="#8EA0BC" font-size="12" font-family="Space Grotesk" text-anchor="middle">Research Ops</text>
+  <path d="M480 126V170" stroke="#2D405A" stroke-width="2" />
+  <path d="M220 226V270" stroke="#2D405A" stroke-width="2" />
+  <path d="M480 226V270" stroke="#2D405A" stroke-width="2" />
+  <path d="M740 226V270" stroke="#2D405A" stroke-width="2" />
+  <path d="M220 170H740" stroke="#2D405A" stroke-width="2" />
+</svg>

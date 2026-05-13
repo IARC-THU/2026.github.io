@@ -1,0 +1,17 @@
+<svg width="560" height="380" viewBox="0 0 560 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="380" rx="24" fill="#0B111C" />
+  <rect x="32" y="30" width="496" height="320" rx="18" fill="#111827" stroke="#243449" stroke-width="2" />
+  <rect x="70" y="70" width="180" height="50" rx="14" fill="#182335" stroke="#2E405A" stroke-width="2" />
+  <rect x="310" y="70" width="180" height="50" rx="14" fill="#182335" stroke="#2E405A" stroke-width="2" />
+  <rect x="70" y="150" width="180" height="50" rx="14" fill="#142033" stroke="#2E405A" stroke-width="2" />
+  <rect x="310" y="150" width="180" height="50" rx="14" fill="#142033" stroke="#2E405A" stroke-width="2" />
+  <rect x="70" y="230" width="180" height="50" rx="14" fill="#142033" stroke="#2E405A" stroke-width="2" />
+  <rect x="310" y="230" width="180" height="50" rx="14" fill="#142033" stroke="#2E405A" stroke-width="2" />
+  <rect x="190" y="300" width="180" height="40" rx="14" fill="#16233A" stroke="#2E405A" stroke-width="2" />
+  <path d="M160 120V150" stroke="#2E405A" stroke-width="2" />
+  <path d="M400 120V150" stroke="#2E405A" stroke-width="2" />
+  <path d="M160 200V230" stroke="#2E405A" stroke-width="2" />
+  <path d="M400 200V230" stroke="#2E405A" stroke-width="2" />
+  <path d="M160 280H400" stroke="#2E405A" stroke-width="2" />
+  <path d="M280 280V300" stroke="#2E405A" stroke-width="2" />
+</svg>

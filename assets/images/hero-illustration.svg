@@ -1,0 +1,20 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" rx="32" fill="#0E1421" />
+  <rect x="48" y="60" width="624" height="400" rx="28" fill="#141C2B" stroke="#24314A" stroke-width="2" />
+  <circle cx="132" cy="130" r="42" fill="#1C2940" stroke="#3B4D6B" stroke-width="2" />
+  <circle cx="588" cy="130" r="42" fill="#1C2940" stroke="#3B4D6B" stroke-width="2" />
+  <circle cx="132" cy="390" r="42" fill="#1C2940" stroke="#3B4D6B" stroke-width="2" />
+  <circle cx="588" cy="390" r="42" fill="#1C2940" stroke="#3B4D6B" stroke-width="2" />
+  <rect x="216" y="152" width="288" height="216" rx="24" fill="#0C111B" stroke="#2C3A52" stroke-width="2" />
+  <rect x="260" y="204" width="200" height="16" rx="8" fill="#26354E" />
+  <rect x="260" y="238" width="200" height="16" rx="8" fill="#26354E" />
+  <rect x="260" y="272" width="160" height="16" rx="8" fill="#26354E" />
+  <rect x="260" y="306" width="180" height="16" rx="8" fill="#26354E" />
+  <circle cx="360" cy="260" r="98" stroke="#2F4467" stroke-width="2" stroke-dasharray="6 10" />
+  <path d="M360 102L388 168H332L360 102Z" fill="#1F78FF" opacity="0.8" />
+  <path d="M618 260L552 288V232L618 260Z" fill="#4ED0FF" opacity="0.75" />
+  <path d="M360 418L332 352H388L360 418Z" fill="#7C9BFF" opacity="0.8" />
+  <path d="M102 260L168 232V288L102 260Z" fill="#5EE0FF" opacity="0.8" />
+  <circle cx="360" cy="260" r="22" fill="#0F1728" stroke="#4ED0FF" stroke-width="2" />
+  <circle cx="360" cy="260" r="8" fill="#4ED0FF" />
+</svg>
