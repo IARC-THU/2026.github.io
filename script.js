@@ -22,6 +22,16 @@ navLinks.forEach((link) => {
   });
 });
 
+const imageFallbacks = document.querySelectorAll("img[data-fallback]");
+imageFallbacks.forEach((img) => {
+  img.addEventListener("error", () => {
+    const fallback = img.dataset.fallback;
+    if (fallback && img.src !== fallback) {
+      img.src = fallback;
+    }
+  });
+});
+
 // Scroll reveal animation
 const revealTargets = document.querySelectorAll(".reveal");
 const revealObserver = new IntersectionObserver(
